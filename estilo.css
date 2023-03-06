@@ -1,0 +1,235 @@
+/* Define as fontes padrões do site */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+  /* Estiliza o cabeçalho */
+  .header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  }
+  
+  /* Define as regras do título principal */
+  h1 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  }
+  
+  /* Define o container principal */
+  .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  /* Define a tabela */
+  .table {
+  border-collapse: collapse;
+  width: 100%;
+  }
+  
+  /* Define as células da tabela */
+  .table th,
+  .table td {
+  text-align: left;
+  padding: 12px;
+  }
+  
+  /* Define a cor de fundo das linhas pares da tabela */
+  .table tr:nth-child(even) {
+  background-color: #f2f2f2;
+  }
+  
+  /* Define o estilo do cabeçalho da tabela */
+  .table th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  }
+  
+  /* Define o estilo do botão */
+  .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  /* Define o estilo do botão ao passar o mouse */
+  .btn:hover {
+  background-color: #555;
+  }
+  
+  /* Define o estilo do formulário */
+  form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Define o estilo dos rótulos do formulário */
+  .form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+  }
+  
+  /* Define o estilo dos campos de entrada do formulário */
+  .form input[type="text"],
+  .form input[type="password"] {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  }
+  
+  /* Define o estilo do botão de envio do formulário */
+  .form input[type="submit"] {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Define o estilo do botão de envio do formulário ao passar o mouse */
+  .form input[type="submit"]:hover {
+  background-color: #555;
+  }
+  
+  /* Define o estilo da caixa de alerta */
+  .alert {
+  background-color: #f44336;
+  color: #fff;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  }
+  .table-wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .table-wrapper h1 {
+    text-align: center;
+  }
+  
+  .clientes-table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .clientes-table th,
+  .clientes-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .clientes-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .clientes-table td:last-child {
+    text-align: center;
+  }
+  
+  .clientes-table td:last-child a {
+    color: red;
+  }
+  .inicio {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: inline-block;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-in-out;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/7606/7606136.png); /* Substitua pelo caminho para a imagem desejada */
+    background-size: 16px 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    }
+    
+    .title {
+    font-size: 24px;
+    margin: 0;
+    }
+    
+    .menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    }
+    
+    .menu-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .menu-item {
+    margin: 10px;
+    }
+    
+    .menu-item a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #999595;
+    transition: all 0.3s ease;
+    }
+    
+    .menu-item a:hover {
+    background-color: #333;
+    color: #fff;
+    } 
+    label {
+      display: inline-block;
+      width: 80px;
+      text-align: right;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    
+    input[type=text], input[type=password] {
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }   
+    .btn:hover {
+      background-color: #3e8e41;
+    }
+    

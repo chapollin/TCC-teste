@@ -1,0 +1,48 @@
+<?php
+include('verficandosenha.php');
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cadastro de Cliente</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <meta charset="utf-8">
+  </head>
+  <body>
+    <div class="container">
+      <form action="cadastro_de_cliente.php" method="post">
+      <h1>Cadastro de Clientes</h1>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+          <label for="cpf">CPF:</label>
+          <input type="text" id="cpf" name="cpf" required>
+        </div>
+        <div class="form-group">
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" name="endereco" required>
+        </div>
+        <div class="form-group">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="devendo">Devendo:</label>
+          <input type="tel" id="devendo" name="devendo" required>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Cadastrar">
+          <a href="listagem_clientes.php"><button type="button">Listar Clientes</button></a>
+          <a href="paginainicio.php"><button type="button">Inicio</button></a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
